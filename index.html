@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal Berita Teknologi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Portal Berita Teknologi</h1>
+
+        <div class="controls">
+            <select id="category">
+                <option value="SpaceX">SpaceX</option>
+                <option value="NASA">NASA</option>
+                <option value="Satellite">Satellite</option>
+                <option value="Rocket">Rocket</option>
+            </select>
+
+            <button onclick="getNews()">
+                Cari Berita
+            </button>
+        </div>
+    </header>
+
+    <div id="news-container"></div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
